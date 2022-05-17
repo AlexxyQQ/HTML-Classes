@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexxy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="Scripts.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#home" class="active">Home</a>
+      </div>
+    </header>
+    <!--Home-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Alexxy.</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">A FullStack Dev.</p>
+      <img src="Asset/Logo.png" alt="a pic of Alexxy" class="intro__img" />
+    </section>
+
+    <!--Work-->
+
+    <section class="work" id="work">
+      <h1 class="work_title">My Work</h1>
+      <div class="Cards" id="Card1">
+        <div class="Card_Front">
+          <h2 class="faculty-title">Photography</h2>
+          <p class="card-body">Just Some samples of my Photography work.</p>
+          <a href="#" class="buttoan">Learn More</a>
+        </div>
+        <h2 class="faculty-title0">Photography</h2>
+        <div class="Card_Back">
+          <p class="card-bodyb">Just Some samples of my Photography work.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="Card_background"></div>
+      </div>
+      <div class="Cards" id="Card2" hidden>
+        <div class="Card_Front">
+          <h2 class="faculty-title">Coding</h2>
+          <p class="card-body">Just Some samples of Codes.</p>
+          <a href="#" class="buttoan">Learn More</a>
+        </div>
+        <h2 class="faculty-title0">Coding</h2>
+        <div class="Card_Back">
+          <p class="card-bodyb">Just Some samples of Codes</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="Card_background"></div>
+      </div>
+      <div class="Cards" id="Card3" hidden>
+        <div class="Card_Front">
+          <h2 class="faculty-title">Otherstuff</h2>
+          <p class="card-body">Just Some samples of somethings.</p>
+          <a href="#" class="buttoan">Learn More</a>
+        </div>
+        <h2 class="faculty-title0">Otherstuff</h2>
+        <div class="Card_Back">
+          <p class="card-bodyb">Just Some samples of somethings</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="Card_background"></div>
+      </div>
+      <div class="Card_nav">
+        <button class="Card_nav_button" onclick="card1()" id="btn1"></button
+        ><button class="Card_nav_button" onclick="card2()" id="btn2"></button
+        ><button class="Card_nav_button" onclick="card3()" id="btn3"></button>
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about"></section>
+
+    <!--Contact-->
+    <section class="contact" id="contact"></section>
+  </body>
+</html>

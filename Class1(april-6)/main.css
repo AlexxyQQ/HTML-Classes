@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+.Topbar {
+}
+.logo {
+  margin: 0 15px;
+  width: 100px;
+  height: 100px;
+}
+.Users-Buttons {
+  margin: 42px 15px;
+  float: right;
+}
+
+.Nav {
+  width: 100%;
+  background-color: green;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  padding: 14px 16px;
+  text-align: left;
+}
+.Nav-items {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+.Nav-items:nth-child(2) {
+  color: cyan;
+}
+.Nav-items:nth-child(n + 3) {
+  color: red;
+}
+.Nav a:hover {
+  color: pink;
+}
+
+.Heading {
+  text-align: center;
+}
+.Contains {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.Cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 15px 2%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.card {
+  border-radius: 50px;
+  padding: 30px 30px;
+  margin: 15px 15px;
+  text-align: center;
+  background-color: grey;
+}
+@media (max-width: 900px) {
+  .Contains {
+    flex-direction: column;
+  }
+
+  .card {
+    border-radius: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+  }
+}
+
+.Footer {
+  background-color: red;
+  height: 100px;
+}
+
+.Table-Stuff {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  border: 5px solid red;
+  /* margin: 20px; */
+  width: 90%;
+}
+.left {
+  border: 5px solid gray;
+  width: 45%;
+}
+.right {
+  border: 5px solid gray;
+  width: 45%;
+}
+
+.cont-rows {
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid cyan;
+}
+.cont-rows:nth-child(even) {
+  background-color: pink;
+}
+.cont-rows:nth-child(odd) {
+  background-color: green;
+}
+.cont-rows:hover {
+  background-color: red;
+}
