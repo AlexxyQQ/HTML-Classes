@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.Button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: max-content;
+}
+.Img {
+  padding: 2px;
+  width: 100%;
+}
+
+.Header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopBar {
+  padding: 15px 0;
+  background-color: #7dd9e8;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.Logo {
+  margin-left: 40px;
+  font-size: 60px;
+}
+
+.Search-Area {
+  margin-left: 40px;
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.SearchBox-Clear {
+  background-color: #caeff7;
+  border-radius: 5px;
+  display: flex;
+}
+.SearchBox {
+  color: black;
+  background-color: transparent;
+  padding: 5px;
+  width: 250px;
+  border: none;
+  outline: none;
+}
+.Clear-Button {
+  color: #a8a8a8;
+}
+.Search-Button {
+  color: white;
+  background-color: #284f57;
+  padding: 5px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.User-Area {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Username {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.Menu-Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Home-Button {
+  border-right: 1px solid black;
+}
+.Settings-Button {
+  border-right: 1px solid black;
+}
+
+.NavBar {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Nav-Items-Area {
+  margin-left: 20px;
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Nav-Items-Area a:hover {
+  color: blue;
+}
+.Nav-Items {
+  height: 100%;
+  color: black;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.Notification-Area {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Invite {
+  width: auto;
+}
+.Invites {
+  width: max-content;
+}
+
+.Requests {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Friend-Requests {
+  width: max-content;
+}
+
+.Content-Area {
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Left-Side-Bar {
+  margin-left: 40px;
+  min-width: 300px;
+  width: 300px;
+  background-color: #f5f5f5;
+  height: 500px;
+}
+.Middle-Area {
+  margin: 0 40px;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Middle-Area__Nav {
+  width: 100%;
+  background-color: transparent;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #2fc1da;
+}
+.Middle-Area__NavLeft {
+  border-radius: 20px 0px 0px 0px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.Middle-Area__NavRight {
+  border-radius: 0px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.Middle-Area-Nav-Items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  width: 250px;
+  color: black;
+  font-size: 20px;
+  background-color: #dddddd;
+  padding: 15px 50px;
+  border-radius: 20px 20px 0px 0px;
+}
+.Middle-Area__Content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Content-Middle {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+.Profile-Img {
+  margin: 0px 20px;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+}
+.Title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Description {
+  font-size: 15px;
+  color: grey;
+}
+.Topic {
+  font-size: 15px;
+  color: grey;
+}
+.Right-Side-Bar {
+  margin-right: 40px;
+  min-width: 300px;
+  width: 300px;
+  background-color: #f5f5f5;
+  height: 500px;
+}
